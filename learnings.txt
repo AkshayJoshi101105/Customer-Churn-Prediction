@@ -1,0 +1,19 @@
+# To add vertical lines in a plot
+plt.axvline(numeric_val, color="red", linestyle="--", label="xyz")
+
+# Use loops or make functions to plot repetitive graphs
+
+# Using different ways to plot multiple graphs eg using sub plots
+
+# SMOTE technique
+
+# Using pickle file 
+
+# To find prediction probablity
+
+pred_prob = model.predict_proba(input_data_df)
+It returns a 2D array, where each row corresponds to a sample, and each column corresponds to a class.
+The values are the probabilities that a sample belongs to each class.
+
+pred_prob[0]  # Might look like: [0.3, 0.7]  for 0 or 1 classification
+30% probability the sample is class 0 and 70% of class 1
